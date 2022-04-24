@@ -37,7 +37,7 @@ DESCRIPTION = ""
 VERSION = "0.0.0"
 # =============================================================================>
 setup(
-    name = '',
+    name = 'excel_cut_check',
     version = VERSION,
     description = DESCRIPTION,
     long_description = README,
