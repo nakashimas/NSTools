@@ -1,0 +1,39 @@
+
+baseURL       = ""
+languageCode  = "ja"
+title         = ""
+summarylength = 32
+contentDir    = "content"
+assetDir      = "assets"
+publishDir    = "docs"
+disableKinds  = ["RSS", "sitemap"]
+
+[taxonomies]
+    tag = ""
+    category = ""
+    series = ""
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = ""
+    tabWidth = 4
+[params]
+  logo = ""
+  images = []
+  dateFormat = "FEB 18, 2020"
+  description = ""
+  author = "Author"
+
+
+

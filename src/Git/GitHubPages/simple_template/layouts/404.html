@@ -1,0 +1,40 @@
+{{ define "main"}}
+    <section class="site-hero-sustain"><div></div></section>
+    <section class="site-project-header">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-lg-8">
+            <div class="site-project-header-content">
+            <h1>
+                404 NOT FOUND
+            </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="site-project" id="backtohome">
+        <div class="col-lg-8 mx-auto">
+          <div class="site-project-single">
+            <div class="site-project-single-description">
+                <h3>
+                    ERROR
+                </h3>
+                <p>
+                    <span class='blockable'>エラーが発生しました。</span>
+                </p>
+                <p>
+                    <span class='blockable'>このページは存在していません。</span>
+                    <span class='blockable'>お探しのページはURLが変更されているか、</span>
+                    <span class='blockable'>削除されている可能性があります。</span>
+                </p>
+                <p>
+                    <a href="{{ .Site.BaseURL }}" class="site-project-cta" style="margin-top: 0px;">CLICK TO BACK TO HOME <span style="bottom: 1px; position:relative">:</span></a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+{{ end }}

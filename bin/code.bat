@@ -1,1 +1,0 @@
-call "C:\Users\naspo\AppData\Local\Programs\VSCode\bin\code" %~dp0/../
